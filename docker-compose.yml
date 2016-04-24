@@ -1,10 +1,10 @@
 db :
- build : db/ .
+ build : db/.
  
  
 web :
- build : web/ .
+ build : web/.
  links :
-  - db:db
+  - web:db
  ports :
   - 3306:3306
