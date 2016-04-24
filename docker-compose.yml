@@ -1,0 +1,10 @@
+db :
+ build : db/ .
+ 
+ 
+web :
+ build : web/ .
+ links :
+  - db:db
+ ports :
+  - 3306:3306
